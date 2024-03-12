@@ -21,6 +21,7 @@ void main() {
   //boolean
   var isLoggedIn = true;
 
+  // Mencetak nilai variabel
   print('Nama: ${name}');
   print(year);
   print(antennaDiameter);

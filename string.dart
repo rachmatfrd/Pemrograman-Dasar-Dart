@@ -1,10 +1,10 @@
 void main() {
-  String nama = ' Rifqi Eka Hardianto ';
-  String daftarHewan = "Kucing, Kuda, Kambing";
+  String nama = ' Rachmat Firdaus ';
+  String daftarHewan = "Kucing, Semut, Cicak";
   var angka = 17;
 
   // cek apakah mengandung string tertentu
-  print(nama.contains('eka'));
+  print(nama.contains('aus'));
 
   // mengubah menjadi huruf kecil
   print(nama.toLowerCase());
@@ -42,10 +42,10 @@ void main() {
   print(nama.indexOf('i'));
 
   // mengecek apakah diawali dengan string/karakter tertentu
-  print(nama.startsWith(' rifqi'));
+  print(nama.startsWith(' rachmat'));
 
   // mengecek apakah diawali dengan string/karakter tertentu
-  print(nama.endsWith('Hardianto '));
+  print(nama.endsWith('Firdaus '));
 
   var kosong = '';
 

@@ -1,7 +1,8 @@
 void main() {
-  List<String> mahasiswa = ['Rifqi', 'Hanif', 'Faqih'];
+  List<String> mahasiswa = ['Rachmat', 'Nauval', 'Alfian'];
   // dimulai dari index 0 -> 0, 1, 2
 
+  // Menampilkan seluruh elemen list
   print(mahasiswa);
 
   // mengembalikan nilai list pada index tertentu

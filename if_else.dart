@@ -1,11 +1,11 @@
 void main() {
   //Decision Making
   /*
-  if(boolean expression){ 
-   // dieksekusi apabila boolean expression bernilai true
-  } else { 
-   // dieksekusi apabila boolean expression bernilai false
-  } 
+  if (kondisi) {
+    // Kode dijalankan jika kondisi benar (true)
+  } else {
+    // Kode dijalankan jika kondisi salah (false)
+  }
   */
 
   int angka = 6;
@@ -19,10 +19,10 @@ void main() {
     }
   }
 
-  String nama = 'Eka';
-  if (nama == 'Rifqi') {
-    print('Ini Rifqi');
+  String nama = 'Firdaus';
+  if (nama == 'Rachmat') {
+    print('Ini Rachmat');
   } else {
-    print('Ini bukan Rifqi');
+    print('Ini bukan Rachmat');
   }
 }
