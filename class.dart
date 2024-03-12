@@ -21,39 +21,39 @@
 */
 
 void main() {
-  RekeningBank rekeningRifqi = new RekeningBank();
-  rekeningRifqi.namaPemilik = 'Rifqi Eka Hardianto';
-  rekeningRifqi.namaBank = 'BTA';
-  rekeningRifqi.saldo = 10000000000;
-  print(rekeningRifqi.namaPemilik);
-  print(rekeningRifqi.namaBank);
-  print(rekeningRifqi.saldo);
-  rekeningRifqi.cekSaldo();
+  RekeningBank rekeningRachmat = new RekeningBank();
+  rekeningRachmat.namaPemilik = 'Rachmat Firdaus';
+  rekeningRachmat.namaBank = 'BCA';
+  rekeningRachmat.saldo = 10000000000;
+  print(rekeningRachmat.namaPemilik);
+  print(rekeningRachmat.namaBank);
+  print(rekeningRachmat.saldo);
+  rekeningRachmat.cekSaldo();
   print('---------------------');
 
-  RekeningBank rekeningEka = new RekeningBank(
-    namaPemilik: 'Eka Husein',
-    namaBank: 'ATB',
+  RekeningBank rekeningFirdaus = new RekeningBank(
+    namaPemilik: 'Firdaus Mewing',
+    namaBank: 'Riau Kepri',
     saldo: 5000000,
   );
-  print(rekeningEka.saldo);
-  rekeningEka.cekSaldo();
+  print(rekeningFirdaus.saldo);
+  rekeningFirdaus.cekSaldo();
   print('---------------------');
 
-  RekeningBank rekeningDian = new RekeningBank(
-    namaPemilik: 'Dian Eka',
-    namaBank: 'TAB',
+  RekeningBank rekeningAmat = new RekeningBank(
+    namaPemilik: 'Amat Edging',
+    namaBank: 'BRI',
     saldo: 20000000,
   );
-  print(rekeningDian.getPemilik);
-  print(rekeningDian.getBank);
-  print(rekeningDian.saldo);
-  rekeningDian.setNamaPemilik = 'Rifqi Dian';
-  rekeningDian.setNamaBank = 'Bank Rakyat';
-  rekeningDian.setSaldo = 50000000;
-  print(rekeningDian.getPemilik);
-  print(rekeningDian.getBank);
-  print(rekeningDian.getSaldo);
+  print(rekeningAmat.getPemilik);
+  print(rekeningAmat.getBank);
+  print(rekeningAmat.saldo);
+  rekeningAmat.setNamaPemilik = 'Rachmat Dian';
+  rekeningAmat.setNamaBank = 'Bank Society';
+  rekeningAmat.setSaldo = 50000000;
+  print(rekeningAmat.getPemilik);
+  print(rekeningAmat.getBank);
+  print(rekeningAmat.getSaldo);
   print('---------------------');
 
   RekeningBank rekeningOwo = new RekeningBank.Owo(
